@@ -12,24 +12,6 @@ en version 3.13, car les versions supérieurs ne sont pas compatibles avec ollam
 
 ## Installation des dépendances
 
-pip install langchain
-pip install chromadb
-pip install sentence-transformers
-pip install unstructured pdfplumber python-docx
-pip install fastapi uvicorn
-
-langchain
-langchain-community
-chromadb
-sentence-transformers
-unstructured
-pdfplumber
-python-docx
-fastapi
-uvicorn
-streamlit
-requests
-
 <code>
 pip install -r requirements.txt
 </code>
