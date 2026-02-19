@@ -1,0 +1,8 @@
+rag-env-312/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+venv/
+*.egg-info/
+chroma_code_penal/
+requirements.txt
