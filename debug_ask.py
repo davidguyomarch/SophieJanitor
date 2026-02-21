@@ -23,7 +23,7 @@ def main():
     print("Appel de ask()...\n")
 
     try:
-        response = sj.ask(args.question)
+        response = sj.ask(args.question, debug_stats=True)
 
         print("=== RÉPONSE ===")
         print(response)

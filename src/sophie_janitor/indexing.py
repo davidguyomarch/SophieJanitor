@@ -15,4 +15,5 @@ class Indexer:
             embedding=self.embeddings,
             persist_directory=self.persist_directory,
             collection_name=self.collection_name,
+            collection_metadata={"hnsw:space": "cosine"}
         )
